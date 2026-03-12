@@ -47,7 +47,7 @@ Model training
 
 Forecast generation
 
-Model evaluation
+#Model evaluation
 
 Evaluation Metrics
 
@@ -102,7 +102,7 @@ Categorical encoding
 
 # Model Evaluation
 
-# Forecast accuracy was measured using:
+Evaluation Metrics
 
 MAE
 
