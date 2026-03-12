@@ -1,6 +1,6 @@
 ### Time Series Forecasting Projects
 
-# This repository contains end-to-end time series forecasting projects implemented in Python. The goal is to demonstrate different forecasting techniques including classical statistical models and machine learning approaches.
+This repository contains end-to-end time series forecasting projects implemented in Python. The goal is to demonstrate different forecasting techniques including classical statistical models and machine learning approaches.
 
 The file Forecasting.pdf and Forecasting.ipynb  contains python code for forecasting two different time series.
 The data used are AirPassengers.csv for first analysis(AirPassengers model).
@@ -9,15 +9,15 @@ stores.csv and features.csv have been used with train.csv to bulid the sencond m
 
 
 
-##Airline passenger demand forecasting
+## Airline passenger demand forecasting
 
-#Dataset: AirPassengers dataset(AirPassengers.csv)
+# Dataset: AirPassengers dataset(AirPassengers.csv)
 
-#Objective
+# Objective
 
 Forecast monthly airline passenger numbers using classical time series models.
 
-#Methods Used
+# Methods Used
 
 Time series visualization
 
@@ -35,7 +35,7 @@ ARIMA
 
 SARIMA
 
-#Key Steps
+# Key Steps
 
 Data loading and preprocessing
 
@@ -58,15 +58,15 @@ RMSE
 MAPE
 
 
-##Walmart Sales Forecasting
+## Walmart Sales Forecasting
 
-#Dataset: Weekly sales data from Walmart stores including economic and holiday features(train.csv, stores.csv,features.csv)
+# Dataset: Weekly sales data from Walmart stores including economic and holiday features(train.csv, stores.csv,features.csv)
 
-#Objective
+# Objective
 
 Predict weekly retail sales using machine learning models with exogenous variables.
 
-#Features Used
+# Features Used
 
 Store and department information
 
@@ -90,7 +90,7 @@ Random Forest
 
 XGBoost
 
-#Feature Engineering
+# Feature Engineering
 
 Lag features
 
@@ -100,9 +100,9 @@ Time-based features (week, month, year)
 
 Categorical encoding
 
-#Model Evaluation
+# Model Evaluation
 
-#Forecast accuracy was measured using:
+# Forecast accuracy was measured using:
 
 MAE
 
