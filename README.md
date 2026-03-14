@@ -53,6 +53,7 @@ This dataset contains historical sales data for Walmart stores.
 Predict **future weekly sales** using statistical and machine learning models.
 
 # AirPassengers Forecasting Pipeline
+
 Load Data
 ↓
 Data Cleaning
