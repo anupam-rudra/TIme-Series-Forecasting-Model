@@ -1,117 +1,160 @@
-### Time Series Forecasting Projects
+# Time Series Forecasting Projects
+## AirPassengers Forecasting & Walmart Sales Prediction
 
-This repository contains end-to-end time series forecasting projects implemented in Python. The goal is to demonstrate different forecasting techniques including classical statistical models and machine learning approaches.
+## Project Overview
+This repository contains multiple **time series forecasting models** built using Python.  
+The project demonstrates how statistical models and machine learning algorithms can be used to forecast future trends from historical data.
 
-The file Forecasting.pdf and Forecasting.ipynb  contains python code for forecasting two different time series.
-The data used are AirPassengers.csv for first analysis(AirPassengers model).
-And train.csv for second analysis(Wall Mart Sales model) 
-stores.csv and features.csv have been used with train.csv to bulid the sencond model(Wall Mart Sales model)
+Two datasets are used in this project:
 
+1. **AirPassengers Dataset** – Forecasting monthly airline passenger numbers.
+2. **Walmart Sales Dataset** – Forecasting weekly retail sales.
 
+The project explores **ARIMA, SARIMA/SARIMAX, and Machine Learning models like Random Forest and XGBoost**.
 
-## Airline passenger demand forecasting
+---
 
-# Dataset: AirPassengers dataset(AirPassengers.csv)
+# Datasets
 
-# Objective
+## 1. AirPassengers Dataset
 
-Forecast monthly airline passenger numbers using classical time series models.
+This dataset contains the **monthly number of international airline passengers from 1949 to 1960**.
 
-# Methods Used
+### Columns
+- `Month` – Date of observation
+- `Passengers` – Total airline passengers
 
-Time series visualization
+### Objective
+Forecast future passenger demand using **ARIMA time series modeling**.
 
-Stationarity testing (ADF test)
+---
 
-Rolling mean & variance analysis
+## 2. Walmart Sales Dataset
 
-ACF / PACF analysis
+This dataset contains historical sales data for Walmart stores.
 
-Seasonal decomposition
+### Files Used
+- `train.csv` – Weekly sales data
+- `stores.csv` – Store information
+- `features.csv` – External economic and environmental features
 
-Model building using
+### Important Features
+- Store
+- Department
+- Weekly Sales
+- Holiday Indicator
+- Temperature
+- Fuel Price
+- CPI
+- Unemployment
+- Store Size
 
-ARIMA
+### Objective
+Predict **future weekly sales** using statistical and machine learning models.
 
-SARIMA
+# AirPassengers Forecasting Pipeline
+Load Data
+↓
+Data Cleaning
+↓
+Datetime Conversion
+↓
+Time Series Visualization
+↓
+Stationarity Check (ADF Test)
+↓
+Differencing
+↓
+Train/Test Split
+↓
+ARIMA Model Training
+↓
+Forecasting
+↓
+Model Evaluation
+↓
+Future Prediction
 
-# Key Steps
-
-Data loading and preprocessing
-
-Stationarity check
-
-Parameter selection using ACF/PACF
-
-Model training
-
-Forecast generation
-
-#Model evaluation
-
-Evaluation Metrics
-
-MAE
-
-RMSE
-
-MAPE
-
-
-## Walmart Sales Forecasting
-
-# Dataset: Weekly sales data from Walmart stores including economic and holiday features(train.csv, stores.csv,features.csv)
-
-# Objective
-
-Predict weekly retail sales using machine learning models with exogenous variables.
-
-# Features Used
-
-Store and department information
-
-Temperature
-
-Fuel price
-
-CPI
-
-Unemployment
-
-Holiday indicator
-
-Lagged sales features
-
-Rolling statistics
-
-#Models Implemented
-
-Random Forest
-
-XGBoost
-
-# Feature Engineering
-
-Lag features
-
-Rolling mean and standard deviation
-
-Time-based features (week, month, year)
-
-Categorical encoding
-
-# Model Evaluation
-
-Evaluation Metrics
-
-MAE
-
-RMSE
-
-MAPE
-
-WMAPE
+# Walmart Sales Forecasting Pipeline
+Data Collection
+↓
+Data Cleaning & Preprocessing
+↓
+Exploratory Data Analysis
+↓
+Feature Engineering
+↓
+Train/Test Split
+↓
+Model Training
+↓
+Forecasting
+↓
+Model Evaluation
+↓
+Future Sales Prediction
 
 
+---
+
+# Models Implemented
+
+## Time Series Models
+- ARIMA
+- SARIMA / SARIMAX
+- Auto ARIMA
+
+## Machine Learning Models
+- Random Forest Regressor
+- XGBoost Regressor
+
+---
+
+# Feature Engineering (Walmart Dataset)
+
+### Time Features
+- Month
+- Week
+- Year
+
+### Lag Features
+- Lag 1
+- Lag 2
+- Lag 3
+
+### Rolling Statistics
+- Rolling Mean
+- Rolling Standard Deviation
+
+### External Variables
+- Temperature
+- Fuel Price
+- CPI
+- Unemployment
+- Store Size
+- Holiday Indicator
+- Store Type
+
+---
+
+# Evaluation Metrics
+
+Model performance was evaluated using:
+
+- **MAE** – Mean Absolute Error
+- **RMSE** – Root Mean Squared Error
+- **MAPE** – Mean Absolute Percentage Error
 
 
+
+
+
+
+
+
+
+
+
+
+
+# AirPassengers Forecasting Pipeline
