@@ -12,7 +12,6 @@ Two datasets are used in this project:
 
 The project explores **ARIMA, SARIMA/SARIMAX, and Machine Learning models like Random Forest and XGBoost**.
 
----
 
 # Datasets
 
@@ -27,7 +26,7 @@ This dataset contains the **monthly number of international airline passengers f
 ### Objective
 Forecast future passenger demand using **ARIMA time series modeling**.
 
----
+
 
 ## 2. Walmart Sales Dataset
 
@@ -96,8 +95,6 @@ Model Evaluation
 Future Sales Prediction
 
 
----
-
 # Models Implemented
 
 ## Time Series Models
@@ -109,7 +106,7 @@ Future Sales Prediction
 - Random Forest Regressor
 - XGBoost Regressor
 
----
+
 
 # Feature Engineering (Walmart Dataset)
 
@@ -136,7 +133,6 @@ Future Sales Prediction
 - Holiday Indicator
 - Store Type
 
----
 
 # Evaluation Metrics
 
